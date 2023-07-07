@@ -8,7 +8,7 @@ export default function Home() {
     game.getPlayerState() === "playing" ? game.activateButton() : null;
     console.log(game)
     return (
-        <div className="bg-blue-400 h-screen flex flex-col justify-center">
+        <div className="bg-slate-600 h-screen flex flex-col justify-center">
             <div className="flex items-center justify-center text-white text-xl">
                 Score : {game.getScore()}{" "}
             </div>
